@@ -1,0 +1,100 @@
+﻿<Page
+    x:Class="Mi_Menu_Ideal.AddGalery"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Mi_Menu_Ideal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <StackPanel Padding="10">
+            <TextBlock Text="Agregar Producto" 
+                       Style="{StaticResource HeaderTextBlockStyle}"
+                       Margin="0,0,0,10" 
+                       />
+            <TextBlock Text="Producto"
+                       Style="{StaticResource CaptionTextBlockStyle}"
+                       Foreground="CornflowerBlue"
+                       Margin="0,0,0,10"
+                       />
+            <TextBox 
+                x:Name="nameprod"
+                PlaceholderText="Nombre del Producto" 
+                Margin="0,0,0,20"
+                     />
+            <TextBlock Text="Defina la categoría a la cual pertenece el producto"
+                       Style="{StaticResource CaptionTextBlockStyle}"
+                       Foreground="CornflowerBlue"
+                       Margin="0,0,0,10"
+                       />
+            <StackPanel Margin="0,0,0,10">
+                <ComboBox Width="200">
+                    <x:String>Comidas Rápidas</x:String>
+                    <x:String>Bebidas</x:String>
+                    <x:String>Heladería</x:String>
+                    <x:String>Varios</x:String>
+                </ComboBox>
+            </StackPanel>
+            
+            <TextBlock Text="Ingrese los ingredientes que conformarán el producto"
+                       Style="{StaticResource CaptionTextBlockStyle}"
+                       Foreground="CornflowerBlue"
+                       Margin="0,0,0,10"
+                       />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox 
+                x:Name="ingred1"
+                Width="150"
+                PlaceholderText="Ingredientes" 
+                Margin="0,0,10,10"
+                     />
+                <TextBox 
+                x:Name="ingred2"
+                Width="150"
+                PlaceholderText="Ingredientes" 
+                Margin="0,0,0,10"
+                     />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox 
+                x:Name="ingred3"
+                Width="150"
+                PlaceholderText="Ingredientes" 
+                Margin="0,0,10,10"
+                     />
+                <TextBox 
+                x:Name="ingred4"
+                Width="150"
+                PlaceholderText="Ingredientes" 
+                Margin="0,0,0,10"
+                     />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                        HorizontalAlignment="Center"
+                        Margin="0,0,0,10">
+                <TextBox 
+                x:Name="ingred5"
+                Width="150"
+                PlaceholderText="Ingredientes" 
+                Margin="0,0,10,10"
+                     />
+                <TextBox 
+                x:Name="ingred6"
+                Width="150"
+                PlaceholderText="Ingredientes" 
+                Margin="0,0,0,10"
+                     />
+
+            </StackPanel>
+        <Button 
+                Background="CornflowerBlue"
+                Content="Agregar" Foreground="White"
+                HorizontalAlignment="Center"
+                    />
+        </StackPanel>
+        
+        
+    </Grid>
+</Page>
