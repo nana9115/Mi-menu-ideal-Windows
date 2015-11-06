@@ -77,6 +77,10 @@
                             <TextBox Text=""
                                      Margin="0,0,0,10"/>
                         </StackPanel>
+                        
+                        <Button Content="Guardar"
+                                HorizontalAlignment="Right"
+                                Margin="0,50,0,0"/>
                     </StackPanel>
                 </Grid>
             </PivotItem>
@@ -146,7 +150,9 @@
                             <TextBox Text=""
                                      Margin="0,0,0,10"/>
                         </StackPanel>
-
+                        <Button Content="Guardar"
+                                HorizontalAlignment="Right"
+                                Margin="0,50,0,0"/>
 
                     </StackPanel>
                 </Grid>
@@ -206,6 +212,9 @@
                             <TextBox Text=""
                                      Margin="0,0,0,10"/>
                         </StackPanel>
+                        <Button Content="Guardar"
+                                HorizontalAlignment="Right"
+                                Margin="0,50,0,0"/>
                     </StackPanel>
                 </Grid>
 
@@ -263,7 +272,9 @@
                             <TextBox Text=""
                                      Margin="0,0,0,10"/>
                         </StackPanel>
-                        
+                        <Button Content="Guardar"
+                                HorizontalAlignment="Right"
+                                Margin="0,50,0,0"/>
 
                     </StackPanel>
                 </Grid>

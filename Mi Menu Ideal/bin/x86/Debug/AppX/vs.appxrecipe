@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-06T02:39:19.048</Modified>
+      <Modified>2015-11-06T07:31:59.092</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,15 +70,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\entrypoint\Mi Menu Ideal.exe">
       <PackagePath>entrypoint\Mi Menu Ideal.exe</PackagePath>
-      <Modified>2015-11-06T02:39:18.027</Modified>
+      <Modified>2015-11-06T07:31:57.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Mi Menu Ideal.exe">
       <PackagePath>Mi Menu Ideal.exe</PackagePath>
-      <Modified>2015-11-06T02:39:19.042</Modified>
+      <Modified>2015-11-06T07:31:59.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Mi Menu Ideal.xr.xml">
       <PackagePath>Mi Menu Ideal.xr.xml</PackagePath>
-      <Modified>2015-11-05T22:45:48.243</Modified>
+      <Modified>2015-11-06T06:32:56.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -110,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-06T02:32:09.165</Modified>
+      <Modified>2015-11-06T07:31:57.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

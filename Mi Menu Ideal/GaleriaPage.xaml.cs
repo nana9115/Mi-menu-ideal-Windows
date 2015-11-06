@@ -25,10 +25,29 @@ namespace Mi_Menu_Ideal
     /// </summary>
     public sealed partial class GaleriaPage : Page
     {
+        Frame rootFrame;
         public GaleriaPage()
         {
             this.InitializeComponent();
-            this.NavigationCacheMode = NavigationCacheMode.Enabled;
+           // this.NavigationCacheMode = NavigationCacheMode.Enabled;
+            rootFrame = Window.Current.Content as Frame;
+
+
+
+            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility =
+            AppViewBackButtonVisibility.Visible;
+
+            //podemos ver los metodos
+            SystemNavigationManager.GetForCurrentView().BackRequested += GaleriaPage_BackRequested;
+        }
+
+        private void GaleriaPage_BackRequested(object sender, BackRequestedEventArgs e)
+        {
+            if (e.Handled == false)
+            {
+                e.Handled = true;
+                rootFrame.GoBack();
+            }
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -138,15 +157,15 @@ namespace Mi_Menu_Ideal
             {
                 case 0:
                     Frame rootFrame = Window.Current.Content as Frame;
-                    rootFrame.Navigate(typeof(AdminPage), Galery.ElementAt(menu.SelectedIndex));
+                    rootFrame.Navigate(typeof(Login2Page), Galery.ElementAt(menu.SelectedIndex));
                     break;
                 case 1:
                     Frame rootFrame1 = Window.Current.Content as Frame;
-                    rootFrame1.Navigate(typeof(DrinksPage), Galery.ElementAt(menu.SelectedIndex));
+                    rootFrame1.Navigate(typeof(GaleriaPage), Galery.ElementAt(menu.SelectedIndex));
                     break;
                 case 2:
                     Frame rootFrame2 = Window.Current.Content as Frame;
-                    rootFrame2.Navigate(typeof(IceCreamPage), Galery.ElementAt(menu.SelectedIndex));
+                    rootFrame2.Navigate(typeof(KitchenPage), Galery.ElementAt(menu.SelectedIndex));
                     break;
                 
 

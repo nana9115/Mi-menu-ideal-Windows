@@ -152,7 +152,7 @@ namespace Mi_Menu_Ideal
             {
                 case 0:
                     Frame rootFrame = Window.Current.Content as Frame;
-                    rootFrame.Navigate(typeof(AdminPage), Galery.ElementAt(menu.SelectedIndex));
+                    rootFrame.Navigate(typeof(Login2Page), Galery.ElementAt(menu.SelectedIndex));
                     break;
                 case 1:
                     Frame rootFrame1 = Window.Current.Content as Frame;
@@ -160,11 +160,17 @@ namespace Mi_Menu_Ideal
                     break;
                 case 2:
                     Frame rootFrame2 = Window.Current.Content as Frame;
-                    rootFrame2.Navigate(typeof(Hub), Galery.ElementAt(menu.SelectedIndex));
+                    rootFrame2.Navigate(typeof(KitchenPage), Galery.ElementAt(menu.SelectedIndex));
                     break;
 
 
             }
+        }
+
+        private void delete(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(DeletePage));
         }
     }
 

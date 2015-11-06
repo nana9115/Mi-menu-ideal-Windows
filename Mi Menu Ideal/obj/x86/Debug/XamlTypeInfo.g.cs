@@ -132,7 +132,7 @@ namespace Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[19];
+            _typeNameTable = new string[27];
             _typeNameTable[0] = "Mi_Menu_Ideal.AddGalery";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -145,15 +145,23 @@ namespace Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo
             _typeNameTable[9] = "System.Collections.ObjectModel.ObservableCollection`1<Mi_Menu_Ideal.Models.GaleryItem>";
             _typeNameTable[10] = "System.Collections.ObjectModel.Collection`1<Mi_Menu_Ideal.Models.GaleryItem>";
             _typeNameTable[11] = "Mi_Menu_Ideal.Models.GaleryItem";
-            _typeNameTable[12] = "Mi_Menu_Ideal.DrinksPage";
-            _typeNameTable[13] = "Mi_Menu_Ideal.EditPage";
-            _typeNameTable[14] = "Mi_Menu_Ideal.FastFoodPage";
-            _typeNameTable[15] = "Mi_Menu_Ideal.GaleriaPage";
-            _typeNameTable[16] = "Mi_Menu_Ideal.Hub";
-            _typeNameTable[17] = "Mi_Menu_Ideal.IceCreamPage";
-            _typeNameTable[18] = "Mi_Menu_Ideal.MainPage";
+            _typeNameTable[12] = "Mi_Menu_Ideal.DeletePage";
+            _typeNameTable[13] = "System.Collections.ObjectModel.ObservableCollection`1<Mi_Menu_Ideal.Models.ProductItem>";
+            _typeNameTable[14] = "System.Collections.ObjectModel.Collection`1<Mi_Menu_Ideal.Models.ProductItem>";
+            _typeNameTable[15] = "Mi_Menu_Ideal.Models.ProductItem";
+            _typeNameTable[16] = "Mi_Menu_Ideal.DrinksPage";
+            _typeNameTable[17] = "Mi_Menu_Ideal.EditPage";
+            _typeNameTable[18] = "Mi_Menu_Ideal.FastFoodPage";
+            _typeNameTable[19] = "Mi_Menu_Ideal.GaleriaPage";
+            _typeNameTable[20] = "Mi_Menu_Ideal.Hub";
+            _typeNameTable[21] = "Mi_Menu_Ideal.IceCreamPage";
+            _typeNameTable[22] = "Mi_Menu_Ideal.KitchenPage";
+            _typeNameTable[23] = "Mi_Menu_Ideal.Login2Page";
+            _typeNameTable[24] = "Mi_Menu_Ideal.LoginPage";
+            _typeNameTable[25] = "Mi_Menu_Ideal.MainPage";
+            _typeNameTable[26] = "Mi_Menu_Ideal.RegisterPage";
 
-            _typeTable = new global::System.Type[19];
+            _typeTable = new global::System.Type[27];
             _typeTable[0] = typeof(global::Mi_Menu_Ideal.AddGalery);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -166,13 +174,21 @@ namespace Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo
             _typeTable[9] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Mi_Menu_Ideal.Models.GaleryItem>);
             _typeTable[10] = typeof(global::System.Collections.ObjectModel.Collection<global::Mi_Menu_Ideal.Models.GaleryItem>);
             _typeTable[11] = typeof(global::Mi_Menu_Ideal.Models.GaleryItem);
-            _typeTable[12] = typeof(global::Mi_Menu_Ideal.DrinksPage);
-            _typeTable[13] = typeof(global::Mi_Menu_Ideal.EditPage);
-            _typeTable[14] = typeof(global::Mi_Menu_Ideal.FastFoodPage);
-            _typeTable[15] = typeof(global::Mi_Menu_Ideal.GaleriaPage);
-            _typeTable[16] = typeof(global::Mi_Menu_Ideal.Hub);
-            _typeTable[17] = typeof(global::Mi_Menu_Ideal.IceCreamPage);
-            _typeTable[18] = typeof(global::Mi_Menu_Ideal.MainPage);
+            _typeTable[12] = typeof(global::Mi_Menu_Ideal.DeletePage);
+            _typeTable[13] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Mi_Menu_Ideal.Models.ProductItem>);
+            _typeTable[14] = typeof(global::System.Collections.ObjectModel.Collection<global::Mi_Menu_Ideal.Models.ProductItem>);
+            _typeTable[15] = typeof(global::Mi_Menu_Ideal.Models.ProductItem);
+            _typeTable[16] = typeof(global::Mi_Menu_Ideal.DrinksPage);
+            _typeTable[17] = typeof(global::Mi_Menu_Ideal.EditPage);
+            _typeTable[18] = typeof(global::Mi_Menu_Ideal.FastFoodPage);
+            _typeTable[19] = typeof(global::Mi_Menu_Ideal.GaleriaPage);
+            _typeTable[20] = typeof(global::Mi_Menu_Ideal.Hub);
+            _typeTable[21] = typeof(global::Mi_Menu_Ideal.IceCreamPage);
+            _typeTable[22] = typeof(global::Mi_Menu_Ideal.KitchenPage);
+            _typeTable[23] = typeof(global::Mi_Menu_Ideal.Login2Page);
+            _typeTable[24] = typeof(global::Mi_Menu_Ideal.LoginPage);
+            _typeTable[25] = typeof(global::Mi_Menu_Ideal.MainPage);
+            _typeTable[26] = typeof(global::Mi_Menu_Ideal.RegisterPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -215,13 +231,21 @@ namespace Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo
         private object Activate_9_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Mi_Menu_Ideal.Models.GaleryItem>(); }
         private object Activate_10_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Mi_Menu_Ideal.Models.GaleryItem>(); }
         private object Activate_11_GaleryItem() { return new global::Mi_Menu_Ideal.Models.GaleryItem(); }
-        private object Activate_12_DrinksPage() { return new global::Mi_Menu_Ideal.DrinksPage(); }
-        private object Activate_13_EditPage() { return new global::Mi_Menu_Ideal.EditPage(); }
-        private object Activate_14_FastFoodPage() { return new global::Mi_Menu_Ideal.FastFoodPage(); }
-        private object Activate_15_GaleriaPage() { return new global::Mi_Menu_Ideal.GaleriaPage(); }
-        private object Activate_16_Hub() { return new global::Mi_Menu_Ideal.Hub(); }
-        private object Activate_17_IceCreamPage() { return new global::Mi_Menu_Ideal.IceCreamPage(); }
-        private object Activate_18_MainPage() { return new global::Mi_Menu_Ideal.MainPage(); }
+        private object Activate_12_DeletePage() { return new global::Mi_Menu_Ideal.DeletePage(); }
+        private object Activate_13_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Mi_Menu_Ideal.Models.ProductItem>(); }
+        private object Activate_14_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Mi_Menu_Ideal.Models.ProductItem>(); }
+        private object Activate_15_ProductItem() { return new global::Mi_Menu_Ideal.Models.ProductItem(); }
+        private object Activate_16_DrinksPage() { return new global::Mi_Menu_Ideal.DrinksPage(); }
+        private object Activate_17_EditPage() { return new global::Mi_Menu_Ideal.EditPage(); }
+        private object Activate_18_FastFoodPage() { return new global::Mi_Menu_Ideal.FastFoodPage(); }
+        private object Activate_19_GaleriaPage() { return new global::Mi_Menu_Ideal.GaleriaPage(); }
+        private object Activate_20_Hub() { return new global::Mi_Menu_Ideal.Hub(); }
+        private object Activate_21_IceCreamPage() { return new global::Mi_Menu_Ideal.IceCreamPage(); }
+        private object Activate_22_KitchenPage() { return new global::Mi_Menu_Ideal.KitchenPage(); }
+        private object Activate_23_Login2Page() { return new global::Mi_Menu_Ideal.Login2Page(); }
+        private object Activate_24_LoginPage() { return new global::Mi_Menu_Ideal.LoginPage(); }
+        private object Activate_25_MainPage() { return new global::Mi_Menu_Ideal.MainPage(); }
+        private object Activate_26_RegisterPage() { return new global::Mi_Menu_Ideal.RegisterPage(); }
         private void VectorAdd_4_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Mi_Menu_Ideal.Models.MenuItem>)instance;
@@ -244,6 +268,18 @@ namespace Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Mi_Menu_Ideal.Models.GaleryItem>)instance;
             var newItem = (global::Mi_Menu_Ideal.Models.GaleryItem)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_13_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Mi_Menu_Ideal.Models.ProductItem>)instance;
+            var newItem = (global::Mi_Menu_Ideal.Models.ProductItem)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_14_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Mi_Menu_Ideal.Models.ProductItem>)instance;
+            var newItem = (global::Mi_Menu_Ideal.Models.ProductItem)item;
             collection.Add(newItem);
         }
 
@@ -335,53 +371,111 @@ namespace Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 12:   //  Mi_Menu_Ideal.DrinksPage
+            case 12:   //  Mi_Menu_Ideal.DeletePage
                 userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_DrinksPage;
+                userType.Activator = Activate_12_DeletePage;
+                userType.AddMemberName("ProdList");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  Mi_Menu_Ideal.EditPage
-                userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_EditPage;
+            case 13:   //  System.Collections.ObjectModel.ObservableCollection`1<Mi_Menu_Ideal.Models.ProductItem>
+                userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Mi_Menu_Ideal.Models.ProductItem>"));
+                userType.CollectionAdd = VectorAdd_13_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 14:   //  System.Collections.ObjectModel.Collection`1<Mi_Menu_Ideal.Models.ProductItem>
+                userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_14_Collection;
+                userType.CollectionAdd = VectorAdd_14_Collection;
+                xamlType = userType;
+                break;
+
+            case 15:   //  Mi_Menu_Ideal.Models.ProductItem
+                userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_15_ProductItem;
+                userType.AddMemberName("NameProd");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  Mi_Menu_Ideal.FastFoodPage
+            case 16:   //  Mi_Menu_Ideal.DrinksPage
                 userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_FastFoodPage;
+                userType.Activator = Activate_16_DrinksPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  Mi_Menu_Ideal.GaleriaPage
+            case 17:   //  Mi_Menu_Ideal.EditPage
                 userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_GaleriaPage;
+                userType.Activator = Activate_17_EditPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 18:   //  Mi_Menu_Ideal.FastFoodPage
+                userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_18_FastFoodPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 19:   //  Mi_Menu_Ideal.GaleriaPage
+                userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_19_GaleriaPage;
                 userType.AddMemberName("MenuList");
                 userType.AddMemberName("Galery");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 16:   //  Mi_Menu_Ideal.Hub
+            case 20:   //  Mi_Menu_Ideal.Hub
                 userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_Hub;
+                userType.Activator = Activate_20_Hub;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 17:   //  Mi_Menu_Ideal.IceCreamPage
+            case 21:   //  Mi_Menu_Ideal.IceCreamPage
                 userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_17_IceCreamPage;
+                userType.Activator = Activate_21_IceCreamPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 18:   //  Mi_Menu_Ideal.MainPage
+            case 22:   //  Mi_Menu_Ideal.KitchenPage
                 userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_18_MainPage;
+                userType.Activator = Activate_22_KitchenPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 23:   //  Mi_Menu_Ideal.Login2Page
+                userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_23_Login2Page;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 24:   //  Mi_Menu_Ideal.LoginPage
+                userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_24_LoginPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 25:   //  Mi_Menu_Ideal.MainPage
+                userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_25_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 26:   //  Mi_Menu_Ideal.RegisterPage
+                userType = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_26_RegisterPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -450,22 +544,42 @@ namespace Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo
             var that = (global::Mi_Menu_Ideal.Models.GaleryItem)instance;
             that.NameImg = (global::System.String)Value;
         }
-        private object get_6_GaleriaPage_MenuList(object instance)
+        private object get_6_DeletePage_ProdList(object instance)
+        {
+            var that = (global::Mi_Menu_Ideal.DeletePage)instance;
+            return that.ProdList;
+        }
+        private void set_6_DeletePage_ProdList(object instance, object Value)
+        {
+            var that = (global::Mi_Menu_Ideal.DeletePage)instance;
+            that.ProdList = (global::System.Collections.ObjectModel.ObservableCollection<global::Mi_Menu_Ideal.Models.ProductItem>)Value;
+        }
+        private object get_7_ProductItem_NameProd(object instance)
+        {
+            var that = (global::Mi_Menu_Ideal.Models.ProductItem)instance;
+            return that.NameProd;
+        }
+        private void set_7_ProductItem_NameProd(object instance, object Value)
+        {
+            var that = (global::Mi_Menu_Ideal.Models.ProductItem)instance;
+            that.NameProd = (global::System.String)Value;
+        }
+        private object get_8_GaleriaPage_MenuList(object instance)
         {
             var that = (global::Mi_Menu_Ideal.GaleriaPage)instance;
             return that.MenuList;
         }
-        private void set_6_GaleriaPage_MenuList(object instance, object Value)
+        private void set_8_GaleriaPage_MenuList(object instance, object Value)
         {
             var that = (global::Mi_Menu_Ideal.GaleriaPage)instance;
             that.MenuList = (global::System.Collections.ObjectModel.ObservableCollection<global::Mi_Menu_Ideal.Models.MenuItem>)Value;
         }
-        private object get_7_GaleriaPage_Galery(object instance)
+        private object get_9_GaleriaPage_Galery(object instance)
         {
             var that = (global::Mi_Menu_Ideal.GaleriaPage)instance;
             return that.Galery;
         }
-        private void set_7_GaleriaPage_Galery(object instance, object Value)
+        private void set_9_GaleriaPage_Galery(object instance, object Value)
         {
             var that = (global::Mi_Menu_Ideal.GaleriaPage)instance;
             that.Galery = (global::System.Collections.ObjectModel.ObservableCollection<global::Mi_Menu_Ideal.Models.GaleryItem>)Value;
@@ -514,17 +628,29 @@ namespace Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo
                 xamlMember.Getter = get_5_GaleryItem_NameImg;
                 xamlMember.Setter = set_5_GaleryItem_NameImg;
                 break;
+            case "Mi_Menu_Ideal.DeletePage.ProdList":
+                userType = (global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Mi_Menu_Ideal.DeletePage");
+                xamlMember = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlMember(this, "ProdList", "System.Collections.ObjectModel.ObservableCollection`1<Mi_Menu_Ideal.Models.ProductItem>");
+                xamlMember.Getter = get_6_DeletePage_ProdList;
+                xamlMember.Setter = set_6_DeletePage_ProdList;
+                break;
+            case "Mi_Menu_Ideal.Models.ProductItem.NameProd":
+                userType = (global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Mi_Menu_Ideal.Models.ProductItem");
+                xamlMember = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlMember(this, "NameProd", "String");
+                xamlMember.Getter = get_7_ProductItem_NameProd;
+                xamlMember.Setter = set_7_ProductItem_NameProd;
+                break;
             case "Mi_Menu_Ideal.GaleriaPage.MenuList":
                 userType = (global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Mi_Menu_Ideal.GaleriaPage");
                 xamlMember = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlMember(this, "MenuList", "System.Collections.ObjectModel.ObservableCollection`1<Mi_Menu_Ideal.Models.MenuItem>");
-                xamlMember.Getter = get_6_GaleriaPage_MenuList;
-                xamlMember.Setter = set_6_GaleriaPage_MenuList;
+                xamlMember.Getter = get_8_GaleriaPage_MenuList;
+                xamlMember.Setter = set_8_GaleriaPage_MenuList;
                 break;
             case "Mi_Menu_Ideal.GaleriaPage.Galery":
                 userType = (global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Mi_Menu_Ideal.GaleriaPage");
                 xamlMember = new global::Mi_Menu_Ideal.Mi_Menu_Ideal_XamlTypeInfo.XamlMember(this, "Galery", "System.Collections.ObjectModel.ObservableCollection`1<Mi_Menu_Ideal.Models.GaleryItem>");
-                xamlMember.Getter = get_7_GaleriaPage_Galery;
-                xamlMember.Setter = set_7_GaleriaPage_Galery;
+                xamlMember.Getter = get_9_GaleriaPage_Galery;
+                xamlMember.Setter = set_9_GaleriaPage_Galery;
                 break;
             }
             return xamlMember;

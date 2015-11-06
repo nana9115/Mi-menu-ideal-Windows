@@ -22,7 +22,7 @@
                 <AppBarSeparator/>
                 <AppBarButton
                     Icon="Delete"
-                    Label="Borrar"
+                    Label="Borrar" Click="delete"
                     />
             </CommandBar.PrimaryCommands>
             <CommandBar.SecondaryCommands>

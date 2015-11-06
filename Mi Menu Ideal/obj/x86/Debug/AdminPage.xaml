@@ -20,9 +20,9 @@
                     Label="Editar"                   
                     />
                 <AppBarSeparator/>
-                <AppBarButton
+                <AppBarButton x:ConnectionId='4'
                     Icon="Delete"
-                    Label="Borrar"
+                    Label="Borrar"               
                     />
             </CommandBar.PrimaryCommands>
             <CommandBar.SecondaryCommands>
@@ -36,7 +36,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <SplitView x:ConnectionId='4'
+        <SplitView x:ConnectionId='5'
             x:Name="split"
             DisplayMode="CompactInline"
             IsPaneOpen="False"
@@ -46,7 +46,7 @@
             >
             <SplitView.Pane>
                 <StackPanel>
-                    <Button x:ConnectionId='6' x:Name="btnMenu"  Width="50" Height="50"                 
+                    <Button x:ConnectionId='7' x:Name="btnMenu"  Width="50" Height="50"                 
                             
                             >
                         <StackPanel>
@@ -55,7 +55,7 @@
                             <Rectangle Fill="White" Width="25" Height="3" Margin="0,0,0,4"/>
                         </StackPanel>
                     </Button>
-                    <ListBox x:ConnectionId='7' x:Name="menu"
+                    <ListBox x:ConnectionId='8' x:Name="menu"
                                                             
                              Background="Transparent"
                              Margin="0" Padding="0"
@@ -64,12 +64,12 @@
                              >
                         <ListBox.ItemTemplate>
                             <DataTemplate                             >
-                                <StackPanel x:ConnectionId='8' Orientation="Horizontal">
-                                    <SymbolIcon x:ConnectionId='9'                        
+                                <StackPanel x:ConnectionId='9' Orientation="Horizontal">
+                                    <SymbolIcon x:ConnectionId='10'                        
                                                 Width="50" Height="50"
                                                 Foreground="White"
                                                 />
-                                    <TextBlock x:ConnectionId='10'                        VerticalAlignment="Center" Foreground="White"/>
+                                    <TextBlock x:ConnectionId='11'                        VerticalAlignment="Center" Foreground="White"/>
                                 </StackPanel>
 
                             </DataTemplate>
@@ -80,21 +80,21 @@
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
-                <GridView x:ConnectionId='11' x:Name="grid"
+                <GridView x:ConnectionId='12' x:Name="grid"
                                                                              >
                     <GridView.ItemTemplate>
                         <DataTemplate                               >
-                            <RelativePanel x:ConnectionId='12' Width="220" Height="220" Margin="10">
+                            <RelativePanel x:ConnectionId='13' Width="220" Height="220" Margin="10">
                                 <Rectangle Width="220" Height="220" >
                                     <Rectangle.Fill>
-                                        <ImageBrush x:ConnectionId='14'                            Stretch="Uniform"/>
+                                        <ImageBrush x:ConnectionId='15'                            Stretch="Uniform"/>
                                     </Rectangle.Fill>
                                 </Rectangle>
 
                                 <StackPanel Background="CornflowerBlue"
                                             RelativePanel.AlignBottomWithPanel="True"
                                             Padding="4">
-                                    <TextBlock x:ConnectionId='13' Width="220" 
+                                    <TextBlock x:ConnectionId='14' Width="220" 
                                                                 
                                          Foreground="White"
                                          />
@@ -109,7 +109,7 @@
             </SplitView.Content>
             
         </SplitView>
-        <Frame x:ConnectionId='5' x:Name="Contenido"/>
+        <Frame x:ConnectionId='6' x:Name="Contenido"/>
     </Grid>
 </Page>
 

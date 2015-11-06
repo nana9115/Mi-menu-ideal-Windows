@@ -15,7 +15,7 @@
             <PivotItem
                 Header="Perro Caliente"
                 >
-                <Grid Background="#00ff00">
+                <Grid>
                     <StackPanel>
                         <TextBlock Text="Ingredientes que NO desea"
                                    Padding="15"
@@ -54,6 +54,9 @@
                         <CheckBox >
                             <TextBlock Text="Mayonesa"/>
                         </CheckBox>
+                        <Button Content="Guardar"
+                                HorizontalAlignment="Right"
+                                Margin="0,30,0,0"/>
                     </StackPanel>
                 </Grid>
             </PivotItem>
@@ -97,6 +100,9 @@
                         <CheckBox >
                             <TextBlock Text="Ripio"/>
                         </CheckBox>
+                        <Button Content="Guardar"
+                                HorizontalAlignment="Right"
+                                Margin="0,50,0,0"/>
                     </StackPanel>
                 </Grid>
 
@@ -133,7 +139,9 @@
                         <CheckBox >
                             <TextBlock Text="Salsa de Ajo"/>
                         </CheckBox>
-                       
+                        <Button Content="Guardar"
+                                HorizontalAlignment="Right"
+                                Margin="0,50,0,0"/>
                     </StackPanel>
                 </Grid>
 

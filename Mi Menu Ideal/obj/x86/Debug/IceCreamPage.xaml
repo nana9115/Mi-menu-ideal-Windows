@@ -41,6 +41,9 @@
                         <CheckBox >
                             <TextBlock Text="Glaciados"/>
                         </CheckBox>
+                        <Button Content="Guardar"
+                                HorizontalAlignment="Right"
+                                Margin="0,50,0,0"/>
                     </StackPanel>
                 </Grid>
 
@@ -79,19 +82,17 @@
                         <CheckBox >
                             <TextBlock Text="Queso"/>
                         </CheckBox>
-                        <CheckBox >
-                            <TextBlock Text="Masmelos"/>
-                        </CheckBox>
+                        
                         <CheckBox >
                             <TextBlock Text="Galleta"/>
                         </CheckBox>
-                        <CheckBox >
-                            <TextBlock Text="Grajeas"/>
-                        </CheckBox>
+                        
                         <CheckBox >
                             <TextBlock Text="Glaciados"/>
                         </CheckBox>
-                        
+                        <Button Content="Guardar"
+                                HorizontalAlignment="Right"
+                                Margin="0,50,0,0"/>
                     </StackPanel>
                 </Grid>
 
@@ -133,6 +134,9 @@
                         <CheckBox >
                             <TextBlock Text="Glaciados"/>
                         </CheckBox>
+                        <Button Content="Guardar"
+                                HorizontalAlignment="Right"
+                                Margin="0,50,0,0"/>
                     </StackPanel>
                 </Grid>
 
@@ -160,6 +164,9 @@
                             <CheckBox >
                                 <TextBlock Text="Glaciado"/>
                             </CheckBox>
+                            <Button Content="Guardar"
+                                HorizontalAlignment="Right"
+                                Margin="0,50,0,0"/>
                     </StackPanel>
                 </Grid>
 

@@ -458,7 +458,6 @@ C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Idea
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\EditPage.g.cs
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\EditPage.xaml
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\EditPage.xbf
-C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\Mi Menu Ideal.csprojResolveAssemblyReference.cache
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\DrinksPage.xbf
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\FastFoodPage.xbf
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\IceCreamPage.xbf
@@ -474,3 +473,29 @@ C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Idea
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\DrinksPage.xbf
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\FastFoodPage.xbf
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\IceCreamPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\KitchenPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Login2Page.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\LoginPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\RegisterPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\KitchenPage.g.i.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\KitchenPage.g.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\Login2Page.g.i.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\Login2Page.g.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\LoginPage.g.i.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\LoginPage.g.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\RegisterPage.g.i.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\RegisterPage.g.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\KitchenPage.xaml
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\Login2Page.xaml
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\LoginPage.xaml
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\RegisterPage.xaml
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\KitchenPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\Login2Page.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\LoginPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\RegisterPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\DeletePage.g.i.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\DeletePage.g.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\DeletePage.xaml
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\DeletePage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\DeletePage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\Mi Menu Ideal.csprojResolveAssemblyReference.cache
