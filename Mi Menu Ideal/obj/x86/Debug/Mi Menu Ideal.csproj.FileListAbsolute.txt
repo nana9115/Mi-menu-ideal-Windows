@@ -459,3 +459,18 @@ C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Idea
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\EditPage.xaml
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\EditPage.xbf
 C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\Mi Menu Ideal.csprojResolveAssemblyReference.cache
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\DrinksPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\FastFoodPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\IceCreamPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\DrinksPage.g.i.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\DrinksPage.g.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\FastFoodPage.g.i.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\FastFoodPage.g.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\IceCreamPage.g.i.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\IceCreamPage.g.cs
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\DrinksPage.xaml
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\FastFoodPage.xaml
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\IceCreamPage.xaml
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\DrinksPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\FastFoodPage.xbf
+C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\IceCreamPage.xbf

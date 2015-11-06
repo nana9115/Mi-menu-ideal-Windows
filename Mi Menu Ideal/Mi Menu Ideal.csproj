@@ -105,14 +105,23 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DrinksPage.xaml.cs">
+      <DependentUpon>DrinksPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EditPage.xaml.cs">
       <DependentUpon>EditPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FastFoodPage.xaml.cs">
+      <DependentUpon>FastFoodPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="GaleriaPage.xaml.cs">
       <DependentUpon>GaleriaPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Hub.xaml.cs">
       <DependentUpon>Hub.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IceCreamPage.xaml.cs">
+      <DependentUpon>IceCreamPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -150,7 +159,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DrinksPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EditPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FastFoodPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -159,6 +176,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Hub.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="IceCreamPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

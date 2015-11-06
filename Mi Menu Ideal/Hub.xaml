@@ -9,25 +9,103 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <Hub Header="Colores">
+        <Pivot
+            Title="Varios"
+            >
+            <PivotItem
+                Header="Panadería"
+                >
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Seleccione un ítem"
+                                   Padding="15"
+                                   Style="{StaticResource SubheaderTextBlockStyle}"
+                                   Foreground="OrangeRed"/>
+                        
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Pandebono"
+                                        Width="250"                                      
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Almohabana"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Buñuelo"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Pastel de Pollo"
+                                        Width="250"                                      
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Pan Coco"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Pan Café"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
 
-            <HubSection Width="320" Header="Rojo">
-                <DataTemplate>
-                    <Rectangle Fill="Red" Width="300" Height="500"/>
-                </DataTemplate>
-            </HubSection>
+            </PivotItem>
 
-            <HubSection Width="640" Header="Azul">
-                <DataTemplate>
-                    <Rectangle Fill="Blue" Width="620" Height="500"/>
-                </DataTemplate>
-            </HubSection>
+            <PivotItem
+                Header="Típicos"
+                >
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Escriba la cantidad para el producto"
+                                   Padding="15"
+                                   Style="{StaticResource SubheaderTextBlockStyle}"
+                                   Foreground="OrangeRed"/>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Empanadas"
+                                        Width="250"                                      
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Tamal"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Papa Rellena"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
 
-            <HubSection Width="320" Header="Amarillo">
-                <DataTemplate>
-                    <Rectangle Fill="Yellow" Width="300" Height="500"/>
-                </DataTemplate>
-            </HubSection>
-        </Hub>
+            </PivotItem>
+
+            
+
+        </Pivot>
     </Grid>
 </Page>

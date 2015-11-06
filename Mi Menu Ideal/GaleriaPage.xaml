@@ -45,8 +45,7 @@
             <SplitView.Pane>
                 <StackPanel>
                     <Button x:Name="btnMenu"  Width="50" Height="50" Click="showMenu"
-                            
-                            >
+                        >
                         <StackPanel>
                             <Rectangle Fill="White" Width="25" Height="3" Margin="0,0,0,4"/>
                             <Rectangle Fill="White" Width="25" Height="3" Margin="0,0,0,4"/>
@@ -57,7 +56,7 @@
                              ItemsSource="{x:Bind MenuList}"
                              Background="Transparent"
                              Margin="0" Padding="0"
-                             ItemContainerStyle="{StaticResource MenuItemStyle}"
+                             ItemContainerStyle="{StaticResource MenuItemStyle}" SelectionChanged="changeUsr"
                              
                              >
                         <ListBox.ItemTemplate>
@@ -72,14 +71,12 @@
                                 
                             </DataTemplate>
                         </ListBox.ItemTemplate>
-                        
-                        
                     </ListBox>
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
-                <GridView 
-                    ItemsSource="{x:Bind Galery}" SelectionChanged="edit">
+                <GridView x:Name="grid"
+                    ItemsSource="{x:Bind Galery}" SelectionChanged="openPage2">
                     <GridView.ItemTemplate>
                         <DataTemplate x:DataType="models:GaleryItem">
                             <RelativePanel Width="220" Height="220" Margin="10">
@@ -105,7 +102,6 @@
                 </GridView>
             </SplitView.Content>
         </SplitView>
-        
-        
+        <Frame x:Name="Contenido2"/>
     </Grid>
 </Page>

@@ -37,11 +37,13 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Padding" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Text" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -124,18 +126,23 @@
       <RootProperty Name="Stretch" />
     </RootType>
     <RootType FullName="Mi_Menu_Ideal.AdminPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
+      <RootProperty Name="Title" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PivotItem">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Mi_Menu_Ideal.DrinksPage" />
     <RootType FullName="Mi_Menu_Ideal.EditPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Mi_Menu_Ideal.FastFoodPage" />
     <RootType FullName="Mi_Menu_Ideal.GaleriaPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Hub">
-      <RootProperty Name="Header" />
-      <RootProperty Name="Sections" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.HubSection">
-      <RootProperty Name="Width" />
-      <RootProperty Name="Header" />
-      <RootProperty Name="ContentTemplate" />
-    </RootType>
     <RootType FullName="Mi_Menu_Ideal.Hub" />
+    <RootType FullName="Mi_Menu_Ideal.IceCreamPage" />
     <RootType FullName="Mi_Menu_Ideal.MainPage" />
   </Roots.RootTypes>
 </Roots>

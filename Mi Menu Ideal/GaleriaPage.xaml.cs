@@ -106,9 +106,54 @@ namespace Mi_Menu_Ideal
 
         }
 
-        private void edit(object sender, SelectionChangedEventArgs e)
+      
+        private void openPage2(object sender, SelectionChangedEventArgs e)
         {
+           switch (grid.SelectedIndex)
+            {
+                case 0:
+                    Frame rootFrame = Window.Current.Content as Frame;
+                    rootFrame.Navigate(typeof(FastFoodPage), Galery.ElementAt(grid.SelectedIndex));
+                    break;
+                case 1:
+                    Frame rootFrame1 = Window.Current.Content as Frame;
+                    rootFrame1.Navigate(typeof(DrinksPage), Galery.ElementAt(grid.SelectedIndex));
+                    break;
+                case 2:
+                    Frame rootFrame2 = Window.Current.Content as Frame;
+                    rootFrame2.Navigate(typeof(IceCreamPage), Galery.ElementAt(grid.SelectedIndex));
+                    break;
+                case 3:
+                    Frame rootFrame3 = Window.Current.Content as Frame;
+                    rootFrame3.Navigate(typeof(Hub), Galery.ElementAt(grid.SelectedIndex));
+                    break;
 
+            }
+        }
+
+        private void changeUsr(object sender, SelectionChangedEventArgs e)
+        {
+            //Contenido.Navigate(typeof(GaleriaPage));
+            switch (Contenido2.Navigated)
+            {
+                case 0:
+                    Frame rootFrame = Window.Current.Content as Frame;
+                    rootFrame.Navigate(typeof(FastFoodPage), Galery.ElementAt(grid.SelectedIndex));
+                    break;
+                case 1:
+                    Frame rootFrame1 = Window.Current.Content as Frame;
+                    rootFrame1.Navigate(typeof(DrinksPage), Galery.ElementAt(grid.SelectedIndex));
+                    break;
+                case 2:
+                    Frame rootFrame2 = Window.Current.Content as Frame;
+                    rootFrame2.Navigate(typeof(IceCreamPage), Galery.ElementAt(grid.SelectedIndex));
+                    break;
+                case 3:
+                    Frame rootFrame3 = Window.Current.Content as Frame;
+                    rootFrame3.Navigate(typeof(Hub), Galery.ElementAt(grid.SelectedIndex));
+                    break;
+
+            }
         }
     }
 }
