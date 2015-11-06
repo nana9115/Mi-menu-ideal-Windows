@@ -1,0 +1,108 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Mi_Menu_Ideal.GaleriaPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Mi_Menu_Ideal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:models="using:Mi_Menu_Ideal.Models"
+    >
+
+    <!--<Page.BottomAppBar>
+        <CommandBar Background="NavajoWhite">
+            <CommandBar.PrimaryCommands>
+                <AppBarButton
+                    Icon="Add"
+                    Label="Agregar"
+                    />
+                <AppBarButton
+                    Icon="Edit"
+                    Label="Editar"
+                    />
+                <AppBarButton
+                    Icon="Delete"
+                    Label="Borrar"
+                    />
+
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>-->
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <SplitView x:ConnectionId='2'
+            x:Name="split"
+            DisplayMode="CompactInline"
+            IsPaneOpen="False"
+            OpenPaneLength="200"
+            CompactPaneLength="50"
+            PaneBackground="OrangeRed"
+            >
+            <SplitView.Pane>
+                <StackPanel>
+                    <Button x:ConnectionId='4' x:Name="btnMenu"  Width="50" Height="50"                 
+                        >
+                        <StackPanel>
+                            <Rectangle Fill="White" Width="25" Height="3" Margin="0,0,0,4"/>
+                            <Rectangle Fill="White" Width="25" Height="3" Margin="0,0,0,4"/>
+                            <Rectangle Fill="White" Width="25" Height="3" Margin="0,0,0,4"/>
+                        </StackPanel>
+                    </Button>
+                    <ListBox x:ConnectionId='5' x:Name="menu"
+                                                            
+                             Background="Transparent"
+                             Margin="0" Padding="0"
+                             ItemContainerStyle="{StaticResource MenuItemStyle}"                             
+                             
+                             >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate                             >
+                                <StackPanel x:ConnectionId='6' Orientation="Horizontal">
+                                    <SymbolIcon x:ConnectionId='7'                        
+                                                Width="50" Height="50"
+                                                Foreground="White"
+                                                /> 
+                                    <TextBlock x:ConnectionId='8'                        VerticalAlignment="Center" Foreground="White"/>
+                                </StackPanel>
+                                
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <GridView x:ConnectionId='9' x:Name="grid"
+                                                                              >
+                    <GridView.ItemTemplate>
+                        <DataTemplate                               >
+                            <RelativePanel x:ConnectionId='10' Width="220" Height="220" Margin="10">
+                                <Rectangle Width="220" Height="220" >
+                                    <Rectangle.Fill>
+                                        <ImageBrush x:ConnectionId='12'                            Stretch="Uniform"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+
+                                <StackPanel Background="OrangeRed"
+                                            RelativePanel.AlignBottomWithPanel="True"
+                                            Padding="4">
+                                <TextBlock x:ConnectionId='11' Width="220" 
+                                                                
+                                         Foreground="White"
+                                         />
+                                </StackPanel>
+
+                            </RelativePanel>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                    
+                </GridView>
+            </SplitView.Content>
+        </SplitView>
+        <Frame x:ConnectionId='3' x:Name="Contenido2"/>
+    </Grid>
+</Page>
+

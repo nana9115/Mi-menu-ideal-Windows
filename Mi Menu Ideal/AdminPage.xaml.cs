@@ -106,7 +106,7 @@ namespace Mi_Menu_Ideal
         private void goToAdd(object sender, RoutedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
-            rootFrame.Navigate(typeof (AddGalery), "hollllllaaaaaaaaaa");
+            rootFrame.Navigate(typeof(AddGalery), "hollllllaaaaaaaaaa");
 
         }
 
@@ -148,9 +148,23 @@ namespace Mi_Menu_Ideal
 
         private void putContent(object sender, SelectionChangedEventArgs e)
         {
-            Contenido.Navigate(typeof(GaleriaPage));
+            switch (menu.SelectedIndex)
+            {
+                case 0:
+                    Frame rootFrame = Window.Current.Content as Frame;
+                    rootFrame.Navigate(typeof(AdminPage), Galery.ElementAt(menu.SelectedIndex));
+                    break;
+                case 1:
+                    Frame rootFrame1 = Window.Current.Content as Frame;
+                    rootFrame1.Navigate(typeof(GaleriaPage), Galery.ElementAt(menu.SelectedIndex));
+                    break;
+                case 2:
+                    Frame rootFrame2 = Window.Current.Content as Frame;
+                    rootFrame2.Navigate(typeof(Hub), Galery.ElementAt(menu.SelectedIndex));
+                    break;
 
-            
+
+            }
         }
     }
 

@@ -1,0 +1,145 @@
+﻿<Page
+    x:Class="Mi_Menu_Ideal.FastFoodPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Mi_Menu_Ideal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Pivot
+            Title="Comidas Rápidas" 
+            >
+
+            <PivotItem
+                Header="Perro Caliente"
+                >
+                <Grid Background="#00ff00">
+                    <StackPanel>
+                        <TextBlock Text="Ingredientes que NO desea"
+                                   Padding="15"
+                                   Style="{StaticResource SubheaderTextBlockStyle}"
+                                   Foreground="OrangeRed"/>
+                        <CheckBox >
+                            <TextBlock Text="Pan"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Salchicha"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Ripio"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Pollo"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Jamon"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Queso"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Cebolla"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Salsa de Tomate"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Mostaza"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Salsa de Ajo"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Mayonesa"/>
+                        </CheckBox>
+                    </StackPanel>
+                </Grid>
+            </PivotItem>
+
+            <PivotItem
+                Header="Hamburguesa"
+                >
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Ingredientes que NO desea"
+                                   Padding="15"
+                                   Style="{StaticResource SubheaderTextBlockStyle}"
+                                   Foreground="OrangeRed"/>
+                        <CheckBox >
+                            <TextBlock Text="Pan"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Carne"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Pollo"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Tocineta"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Tomate"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Cebolla"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Lechuga"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Jamón"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Queso"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Ripio"/>
+                        </CheckBox>
+                    </StackPanel>
+                </Grid>
+
+            </PivotItem>
+
+            <PivotItem
+                Header="Sandwich"
+                >
+
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Ingredientes que NO desea"
+                                   Padding="15"
+                                   Style="{StaticResource SubheaderTextBlockStyle}"
+                                   Foreground="OrangeRed"/>
+                        <CheckBox >
+                            <TextBlock Text="Pan"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Pollo"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Jamón"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Lechuga"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Queso"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Tomate"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Salsa de Ajo"/>
+                        </CheckBox>
+                       
+                    </StackPanel>
+                </Grid>
+
+            </PivotItem>
+
+        </Pivot>
+    </Grid>
+</Page>
+

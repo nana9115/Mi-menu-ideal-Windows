@@ -1,0 +1,171 @@
+﻿<Page
+    x:Class="Mi_Menu_Ideal.IceCreamPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Mi_Menu_Ideal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Pivot
+            Title="Heladería"
+            >
+            <PivotItem
+                Header="Copa de Helado"
+                >
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Ingredientes que NO desea"
+                                   Padding="15"
+                                   Style="{StaticResource SubheaderTextBlockStyle}"
+                                   Foreground="OrangeRed"/>
+                            <CheckBox >
+                            <TextBlock Text="Chantilli"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Helado"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Queso"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Masmelos"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Galleta"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Grajeas"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Glaciados"/>
+                        </CheckBox>
+                    </StackPanel>
+                </Grid>
+
+            </PivotItem>
+
+            <PivotItem
+                Header="Ensalada de Frutas"
+                >
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Ingredientes que NO desea"
+                                   Padding="15"
+                                   Style="{StaticResource SubheaderTextBlockStyle}"
+                                   Foreground="OrangeRed"/>
+                        <CheckBox >
+                            <TextBlock Text="Papaya"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Melón"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Mango"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Banano"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Coco"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Chantilli"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Helado"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Queso"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Masmelos"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Galleta"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Grajeas"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Glaciados"/>
+                        </CheckBox>
+                        
+                    </StackPanel>
+                </Grid>
+
+            </PivotItem>
+
+            <PivotItem
+                Header="Banana Split"
+                >
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Ingredientes que NO desea"
+                                   Padding="15"
+                                   Style="{StaticResource SubheaderTextBlockStyle}"
+                                   Foreground="OrangeRed"/>
+                        <CheckBox >
+                            <TextBlock Text="Banano"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Chantilli"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Pasas"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Helado"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Maní"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Chips de Chocolate"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Galleta"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Cerezas"/>
+                        </CheckBox>
+                        <CheckBox >
+                            <TextBlock Text="Glaciados"/>
+                        </CheckBox>
+                    </StackPanel>
+                </Grid>
+
+            </PivotItem>
+            <PivotItem
+                Header="Fresas con Helado"
+                >
+
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Ingredientes que NO desea"
+                                   Padding="15"
+                                   Style="{StaticResource SubheaderTextBlockStyle}"
+                                   Foreground="OrangeRed"/>
+                        
+                            <CheckBox >
+                                <TextBlock Text="Helado"/>
+                            </CheckBox>
+                            <CheckBox >
+                                <TextBlock Text="Fresa"/>
+                            </CheckBox>
+                            <CheckBox >
+                                <TextBlock Text="Chantilli"/>
+                            </CheckBox>
+                            <CheckBox >
+                                <TextBlock Text="Glaciado"/>
+                            </CheckBox>
+                    </StackPanel>
+                </Grid>
+
+            </PivotItem>
+
+        </Pivot>
+    </Grid>
+</Page>
+

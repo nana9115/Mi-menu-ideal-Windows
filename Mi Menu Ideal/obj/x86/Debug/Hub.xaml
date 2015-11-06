@@ -1,0 +1,112 @@
+﻿<Page
+    x:Class="Mi_Menu_Ideal.Hub"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Mi_Menu_Ideal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Pivot
+            Title="Varios"
+            >
+            <PivotItem
+                Header="Panadería"
+                >
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Seleccione un ítem"
+                                   Padding="15"
+                                   Style="{StaticResource SubheaderTextBlockStyle}"
+                                   Foreground="OrangeRed"/>
+                        
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Pandebono"
+                                        Width="250"                                      
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Almohabana"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Buñuelo"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Pastel de Pollo"
+                                        Width="250"                                      
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Pan Coco"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Pan Café"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+
+            </PivotItem>
+
+            <PivotItem
+                Header="Típicos"
+                >
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Escriba la cantidad para el producto"
+                                   Padding="15"
+                                   Style="{StaticResource SubheaderTextBlockStyle}"
+                                   Foreground="OrangeRed"/>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Empanadas"
+                                        Width="250"                                      
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Tamal"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Papa Rellena"
+                                       Width="250"
+                                       />
+                            <TextBox Text=""
+                                     Margin="0,0,0,10"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+
+            </PivotItem>
+
+            
+
+        </Pivot>
+    </Grid>
+</Page>
+
