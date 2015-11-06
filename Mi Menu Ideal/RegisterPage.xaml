@@ -12,15 +12,25 @@
             <TextBlock Text="Registro de Usuario" 
                        Style="{StaticResource HeaderTextBlockStyle}"
                        Margin="0,0,0,30"/>
-            <TextBox PlaceholderText="Nombre"
+            
+            <TextBox x:Name="name"
+                     PlaceholderText="Nombre"
                      Margin="0,0,0,10"/>
-            <TextBox PlaceholderText="Apellido"
+            
+            <TextBox x:Name="lastname"
+                     PlaceholderText="Apellido"
                      Margin="0,0,0,10"/>
-            <TextBox PlaceholderText="Número de Identificación"
+            
+            <TextBox x:Name="ident"
+                     PlaceholderText="Número de Identificación"
                      Margin="0,0,0,10"/>
-            <TextBox PlaceholderText="Usuario"
+            
+            <TextBox x:Name="usern"
+                     PlaceholderText="Usuario"
                      Margin="0,0,0,10"/>
-            <TextBox PlaceholderText="Contraseña"
+            
+            <TextBox x:Name="passw"
+                     PlaceholderText="Contraseña"
                      Margin="0,0,0,50"/>
             
             <Button Content="Registrar"

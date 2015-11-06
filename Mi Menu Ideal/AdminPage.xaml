@@ -11,7 +11,7 @@
     <Page.BottomAppBar>
         <CommandBar Background="Lavender">
             <CommandBar.PrimaryCommands>
-                <AppBarButton 
+                <AppBarButton x:Name="agregar"
                     Icon="Add"
                     Label="Agregar" Click="goToAdd"
                     />
@@ -26,9 +26,9 @@
                     />
             </CommandBar.PrimaryCommands>
             <CommandBar.SecondaryCommands>
-                <AppBarButton
+                <AppBarButton x:Name="LoginOut"
                     Icon="Contact2"
-                    Label="Editar cuenta"
+                    Label="Cerrar Sesión" Click="loginOut"
                     />
             </CommandBar.SecondaryCommands>
         </CommandBar>

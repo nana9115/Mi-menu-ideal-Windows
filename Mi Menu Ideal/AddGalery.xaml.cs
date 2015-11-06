@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Parse;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -55,6 +56,24 @@ namespace Mi_Menu_Ideal
             nameprod.Text = msg;
         }
 
+        private async void agregar(object sender, RoutedEventArgs e)
+        {
+            ParseObject comida = new ParseObject("Comida");
+
+            comida["Nombre"] = nameprod.Text;
+            comida["Categoria"] = selCategoria.SelectedItem;
+            comida["Ingrediente1"] = ingred1.Text;
+            comida["Ingrediente2"] = ingred2.Text;
+            comida["Ingrediente3"] = ingred3.Text;
+            comida["Ingrediente4"] = ingred4.Text;
+            comida["Ingrediente5"] = ingred5.Text;
+            comida["Ingrediente6"] = ingred6.Text;
+
+            await comida.SaveAsync();
+
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(AdminPage));
+        }
     }
 
 

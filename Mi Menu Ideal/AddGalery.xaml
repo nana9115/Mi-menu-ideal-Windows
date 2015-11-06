@@ -30,7 +30,8 @@
                        Margin="0,0,0,10"
                        />
             <StackPanel Margin="0,0,0,10">
-                <ComboBox Width="200">
+                <ComboBox x:Name="selCategoria"
+                          Width="200">
                     <x:String>Comidas Rápidas</x:String>
                     <x:String>Bebidas</x:String>
                     <x:String>Heladería</x:String>
@@ -91,7 +92,7 @@
         <Button 
                 Background="CornflowerBlue"
                 Content="Agregar" Foreground="White"
-                HorizontalAlignment="Center"
+                HorizontalAlignment="Center" Click="agregar"
                     />
         </StackPanel>
         

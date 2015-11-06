@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Parse;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -47,8 +48,20 @@ namespace Mi_Menu_Ideal
             }
         }
 
-        private void registrar(object sender, RoutedEventArgs e)
+        private async void registrar(object sender, RoutedEventArgs e)
         {
+
+            var user = new ParseUser()
+            {
+                Username = usern.Text,
+                Password = passw.Text,
+            };
+
+            user.Add("Name", name.Text);
+            user.Add("Lastname", lastname.Text);
+            user.Add("Ident", ident.Text);
+            await user.SignUpAsync();
+
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(LoginPage));
         }

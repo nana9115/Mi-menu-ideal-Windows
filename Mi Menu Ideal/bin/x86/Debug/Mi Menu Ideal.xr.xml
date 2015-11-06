@@ -148,6 +148,10 @@
     <RootType FullName="Mi_Menu_Ideal.IceCreamPage" />
     <RootType FullName="Mi_Menu_Ideal.KitchenPage" />
     <RootType FullName="Mi_Menu_Ideal.Login2Page" />
+    <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Margin" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
       <RootProperty Name="Content" />
       <RootProperty Name="HorizontalAlignment" />

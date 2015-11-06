@@ -1,1 +1,1 @@
-C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\Mi Menu Ideal.csproj;x86
+C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\Mi Menu Ideal.csproj;x86

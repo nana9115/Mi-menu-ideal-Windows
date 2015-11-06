@@ -1,4 +1,5 @@
 ﻿using Mi_Menu_Ideal.Models;
+using Parse;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -103,8 +104,9 @@ namespace Mi_Menu_Ideal
             }
         }
 
-        private void goToAdd(object sender, RoutedEventArgs e)
+        private async void goToAdd(object sender, RoutedEventArgs e)
         {
+
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(AddGalery), "hollllllaaaaaaaaaa");
 
@@ -171,6 +173,15 @@ namespace Mi_Menu_Ideal
         {
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(DeletePage));
+        }
+
+        private void loginOut(object sender, RoutedEventArgs e)
+        {
+            ParseUser.LogOut();
+            var currentUser = ParseUser.CurrentUser;
+
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(LoginPage));
         }
     }
 

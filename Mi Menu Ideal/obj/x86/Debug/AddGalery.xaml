@@ -30,7 +30,8 @@
                        Margin="0,0,0,10"
                        />
             <StackPanel Margin="0,0,0,10">
-                <ComboBox Width="200">
+                <ComboBox x:ConnectionId='9' x:Name="selCategoria"
+                          Width="200">
                     <x:String>Comidas Rápidas</x:String>
                     <x:String>Bebidas</x:String>
                     <x:String>Heladería</x:String>
@@ -44,13 +45,13 @@
                        Margin="0,0,0,10"
                        />
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <TextBox x:ConnectionId='6' 
+            <TextBox x:ConnectionId='7' 
                 x:Name="ingred1"
                 Width="150"
                 PlaceholderText="Ingredientes" 
                 Margin="0,0,10,10"
                      />
-                <TextBox x:ConnectionId='7' 
+                <TextBox x:ConnectionId='8' 
                 x:Name="ingred2"
                 Width="150"
                 PlaceholderText="Ingredientes" 
@@ -58,13 +59,13 @@
                      />
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <TextBox x:ConnectionId='4' 
+            <TextBox x:ConnectionId='5' 
                 x:Name="ingred3"
                 Width="150"
                 PlaceholderText="Ingredientes" 
                 Margin="0,0,10,10"
                      />
-                <TextBox x:ConnectionId='5' 
+                <TextBox x:ConnectionId='6' 
                 x:Name="ingred4"
                 Width="150"
                 PlaceholderText="Ingredientes" 
@@ -74,13 +75,13 @@
             <StackPanel Orientation="Horizontal" 
                         HorizontalAlignment="Center"
                         Margin="0,0,0,10">
-                <TextBox x:ConnectionId='2' 
+                <TextBox x:ConnectionId='3' 
                 x:Name="ingred5"
                 Width="150"
                 PlaceholderText="Ingredientes" 
                 Margin="0,0,10,10"
                      />
-                <TextBox x:ConnectionId='3' 
+                <TextBox x:ConnectionId='4' 
                 x:Name="ingred6"
                 Width="150"
                 PlaceholderText="Ingredientes" 
@@ -88,10 +89,10 @@
                      />
 
             </StackPanel>
-        <Button 
+        <Button x:ConnectionId='2' 
                 Background="CornflowerBlue"
                 Content="Agregar" Foreground="White"
-                HorizontalAlignment="Center"
+                HorizontalAlignment="Center"                
                     />
         </StackPanel>
         

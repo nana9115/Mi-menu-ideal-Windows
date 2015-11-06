@@ -10,23 +10,13 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
         <StackPanel Padding="10">
-            <TextBlock Text="Pedidos en Cola" 
+            <TextBlock Text="Productos" 
                        Style="{StaticResource HeaderTextBlockStyle}"
                        Margin="0,0,0,20"/>
-            
-                <TextBlock Text="Pedido 1"
-                           Style="{StaticResource FlyoutPickerTitleTextBlockStyle}"
-                           Margin="0,0,0,10"/>
-                <TextBlock Text="Pedido 2"
-                           Style="{StaticResource FlyoutPickerTitleTextBlockStyle}"
-                           Margin="0,0,0,10"/>
-                <TextBlock Text="Pedido 3"
-                           Style="{StaticResource FlyoutPickerTitleTextBlockStyle}"
-                           Margin="0,0,0,10"/>
-                
-           
-            
-            
+
+
+            <TextBlock x:Name="listaComidas" Style="{StaticResource SubtitleTextBlockStyle}" Foreground="Aqua"></TextBlock>
+
         </StackPanel>
     </Grid>
 </Page>

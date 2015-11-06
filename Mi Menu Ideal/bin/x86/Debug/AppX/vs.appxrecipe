@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>JOHANNITA-PC</Machine>
-    <WindowsUser>RENATO</WindowsUser>
+    <Machine>JUAN</Machine>
+    <WindowsUser>JUAN DAVID YP</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>45c0e9e7-1715-4639-aef2-812325686ca4</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>820DDBB09BEF335576D30740EE101B21D982BAECFC2D9EF3752DDBEAD4DB6B23</RegisteredManifestChecksum>
+    <IntermediateOutputPath>C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E979F962F0F2CCD6A450BB2FBA3CD3D13D48713E18F150641EE1782BBF994FC3</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>45c0e9e7-1715-4639-aef2-812325686ca4_1.0.0.0_x86__pwvzn6dzzv2qc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>45c0e9e7-1715-4639-aef2-812325686ca4_pwvzn6dzzv2qc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>45c0e9e7-1715-4639-aef2-812325686ca4</RegisteredPackageID>
@@ -19,498 +19,506 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-06T07:31:59.092</Modified>
+      <Modified>2015-11-06T23:16:06.535</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2015-11-03T17:11:55.490</Modified>
+      <Modified>2015-11-06T02:52:18.314</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-08-17T04:10:34.000</Modified>
+      <Modified>2015-11-06T02:52:18.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-17T04:10:34.000</Modified>
+      <Modified>2015-11-06T02:52:18.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-17T04:10:34.000</Modified>
+      <Modified>2015-11-06T02:52:18.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-17T04:10:34.000</Modified>
+      <Modified>2015-11-06T02:52:18.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-17T04:10:34.000</Modified>
+      <Modified>2015-11-06T02:52:18.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-17T04:10:34.000</Modified>
+      <Modified>2015-11-06T02:52:18.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-17T04:10:34.000</Modified>
+      <Modified>2015-11-06T02:52:18.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\ClrCompression.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
-      <Modified>2015-11-02T16:05:24.720</Modified>
+      <Modified>2015-11-05T15:14:07.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\entrypoint\Mi Menu Ideal.exe">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\entrypoint\Mi Menu Ideal.exe">
       <PackagePath>entrypoint\Mi Menu Ideal.exe</PackagePath>
-      <Modified>2015-11-06T07:31:57.052</Modified>
+      <Modified>2015-11-06T23:16:03.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Mi Menu Ideal.exe">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Mi Menu Ideal.exe">
       <PackagePath>Mi Menu Ideal.exe</PackagePath>
-      <Modified>2015-11-06T07:31:59.087</Modified>
+      <Modified>2015-11-06T23:16:06.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Mi Menu Ideal.xr.xml">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Mi Menu Ideal.xr.xml">
       <PackagePath>Mi Menu Ideal.xr.xml</PackagePath>
-      <Modified>2015-11-06T06:32:56.852</Modified>
+      <Modified>2015-11-06T22:46:34.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
-      <Modified>2015-11-02T16:04:57.481</Modified>
+      <Modified>2015-11-06T02:56:23.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
       <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
-      <Modified>2015-11-02T16:04:58.354</Modified>
+      <Modified>2015-11-06T02:56:23.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll">
       <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
-      <Modified>2015-11-02T16:04:58.210</Modified>
+      <Modified>2015-11-06T02:56:23.576</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.766</Modified>
+      <Modified>2015-11-05T15:13:35.394</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.VisualBasic.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.652</Modified>
+      <Modified>2015-11-05T15:13:36.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
-      <Modified>2015-11-02T16:05:01.602</Modified>
+      <Modified>2015-11-05T15:13:32.628</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Parse.dll">
+      <PackagePath>Parse.dll</PackagePath>
+      <Modified>2015-11-06T05:45:20.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Parse.WinRT.dll">
+      <PackagePath>Parse.WinRT.dll</PackagePath>
+      <Modified>2015-11-06T05:45:20.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2015-11-03T17:10:27.142</Modified>
+      <Modified>2015-11-06T02:52:18.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\resources.pri">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-06T07:31:57.886</Modified>
+      <Modified>2015-11-06T23:16:05.070</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.421</Modified>
+      <Modified>2015-11-05T15:13:35.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2015-11-02T16:05:08.530</Modified>
+      <Modified>2015-11-05T15:13:36.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Collections.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.638</Modified>
+      <Modified>2015-11-05T15:13:35.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2015-11-02T16:05:08.492</Modified>
+      <Modified>2015-11-05T15:13:35.769</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.458</Modified>
+      <Modified>2015-11-05T15:13:59.754</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
-      <Modified>2015-11-02T16:05:01.575</Modified>
+      <Modified>2015-11-05T15:13:34.769</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.488</Modified>
+      <Modified>2015-11-05T15:13:36.129</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ComponentModel.DataAnnotations.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
-      <Modified>2015-11-02T16:05:01.879</Modified>
+      <Modified>2015-11-05T15:13:33.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.309</Modified>
+      <Modified>2015-11-05T15:13:36.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
-      <Modified>2015-11-02T16:05:01.732</Modified>
+      <Modified>2015-11-05T15:13:32.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Core.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Core.dll">
       <PackagePath>System.Core.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.377</Modified>
+      <Modified>2015-11-05T15:13:33.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Data.Common.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Data.Common.dll">
       <PackagePath>System.Data.Common.dll</PackagePath>
-      <Modified>2015-11-02T16:05:01.829</Modified>
+      <Modified>2015-11-05T15:13:32.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.739</Modified>
+      <Modified>2015-11-05T15:13:32.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Diagnostics.Debug.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.305</Modified>
+      <Modified>2015-11-05T15:13:35.769</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Diagnostics.StackTrace.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-      <Modified>2015-11-02T16:05:03.029</Modified>
+      <Modified>2015-11-05T15:13:33.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Diagnostics.Tools.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Diagnostics.Tools.dll">
       <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.324</Modified>
+      <Modified>2015-11-05T15:13:36.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll">
       <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.480</Modified>
+      <Modified>2015-11-05T15:13:38.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.dll">
       <PackagePath>System.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.403</Modified>
+      <Modified>2015-11-05T15:13:33.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Dynamic.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.505</Modified>
+      <Modified>2015-11-05T15:13:38.894</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Globalization.Calendars.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Globalization.Calendars.dll">
       <PackagePath>System.Globalization.Calendars.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.501</Modified>
+      <Modified>2015-11-05T15:13:38.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Globalization.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Globalization.dll">
       <PackagePath>System.Globalization.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.498</Modified>
+      <Modified>2015-11-05T15:13:38.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Globalization.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.288</Modified>
+      <Modified>2015-11-05T15:13:37.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.Compression.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.563</Modified>
+      <Modified>2015-11-05T15:13:38.113</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
-      <Modified>2015-11-02T16:05:09.964</Modified>
+      <Modified>2015-11-05T15:13:38.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.dll">
       <PackagePath>System.IO.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.478</Modified>
+      <Modified>2015-11-05T15:13:37.738</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.FileSystem.dll">
       <PackagePath>System.IO.FileSystem.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.565</Modified>
+      <Modified>2015-11-05T15:13:38.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.812</Modified>
+      <Modified>2015-11-05T15:13:38.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll">
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.744</Modified>
+      <Modified>2015-11-05T15:13:32.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
-      <Modified>2015-11-02T16:05:10.715</Modified>
+      <Modified>2015-11-05T15:13:38.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.102</Modified>
+      <Modified>2015-11-05T15:13:39.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Linq.Expressions.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.472</Modified>
+      <Modified>2015-11-05T15:13:52.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Linq.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Linq.Parallel.dll">
       <PackagePath>System.Linq.Parallel.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.559</Modified>
+      <Modified>2015-11-05T15:13:52.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Linq.Queryable.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Linq.Queryable.dll">
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.150</Modified>
+      <Modified>2015-11-05T15:13:52.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.dll">
       <PackagePath>System.Net.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.448</Modified>
+      <Modified>2015-11-05T15:13:33.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
-      <Modified>2015-11-02T16:05:14.230</Modified>
+      <Modified>2015-11-05T15:13:53.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
-      <Modified>2015-11-02T16:05:03.062</Modified>
+      <Modified>2015-11-05T15:13:32.675</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.NetworkInformation.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.116</Modified>
+      <Modified>2015-11-05T15:13:52.613</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.Primitives.dll">
       <PackagePath>System.Net.Primitives.dll</PackagePath>
-      <Modified>2015-11-02T16:05:14.164</Modified>
+      <Modified>2015-11-05T15:13:56.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.Requests.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.Requests.dll">
       <PackagePath>System.Net.Requests.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.696</Modified>
+      <Modified>2015-11-05T15:13:32.800</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.Sockets.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.Sockets.dll">
       <PackagePath>System.Net.Sockets.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.697</Modified>
+      <Modified>2015-11-05T15:13:32.941</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll">
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
-      <Modified>2015-11-02T16:05:03.034</Modified>
+      <Modified>2015-11-05T15:13:32.832</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Numerics.dll">
       <PackagePath>System.Numerics.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.459</Modified>
+      <Modified>2015-11-05T15:13:33.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Numerics.Vectors.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Numerics.Vectors.dll">
       <PackagePath>System.Numerics.Vectors.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.745</Modified>
+      <Modified>2015-11-05T15:13:56.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
       <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.690</Modified>
+      <Modified>2015-11-05T15:13:33.113</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ObjectModel.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.679</Modified>
+      <Modified>2015-11-05T15:13:52.847</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.860</Modified>
+      <Modified>2015-11-05T15:13:32.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Private.Networking.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Private.Networking.dll">
       <PackagePath>System.Private.Networking.dll</PackagePath>
-      <Modified>2015-11-02T16:05:01.771</Modified>
+      <Modified>2015-11-05T15:13:37.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Private.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
-      <Modified>2015-11-02T16:05:03.336</Modified>
+      <Modified>2015-11-05T15:13:33.222</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
-      <Modified>2015-11-02T16:05:01.567</Modified>
+      <Modified>2015-11-05T15:13:30.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Context.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Context.dll">
       <PackagePath>System.Reflection.Context.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.715</Modified>
+      <Modified>2015-11-05T15:13:33.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll">
       <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.754</Modified>
+      <Modified>2015-11-05T15:13:56.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.dll">
       <PackagePath>System.Reflection.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.647</Modified>
+      <Modified>2015-11-05T15:13:56.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Emit.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Emit.dll">
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
-      <Modified>2015-11-02T16:05:24.964</Modified>
+      <Modified>2015-11-05T15:14:24.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
       <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
-      <Modified>2015-11-02T16:05:25.118</Modified>
+      <Modified>2015-11-05T15:14:07.051</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll">
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
-      <Modified>2015-11-02T16:05:25.092</Modified>
+      <Modified>2015-11-05T15:14:07.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Extensions.dll">
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.594</Modified>
+      <Modified>2015-11-05T15:13:56.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.616</Modified>
+      <Modified>2015-11-05T15:13:56.816</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.Primitives.dll">
       <PackagePath>System.Reflection.Primitives.dll</PackagePath>
-      <Modified>2015-11-02T16:05:13.685</Modified>
+      <Modified>2015-11-05T15:13:56.926</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
-      <Modified>2015-11-02T16:05:14.165</Modified>
+      <Modified>2015-11-05T15:13:56.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Resources.ResourceManager.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Resources.ResourceManager.dll">
       <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
-      <Modified>2015-11-02T16:05:14.324</Modified>
+      <Modified>2015-11-05T15:13:56.379</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2015-11-02T16:05:15.446</Modified>
+      <Modified>2015-11-05T15:13:57.035</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Extensions.dll">
       <PackagePath>System.Runtime.Extensions.dll</PackagePath>
-      <Modified>2015-11-02T16:05:14.199</Modified>
+      <Modified>2015-11-05T15:13:56.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Handles.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Handles.dll">
       <PackagePath>System.Runtime.Handles.dll</PackagePath>
-      <Modified>2015-11-02T16:05:14.566</Modified>
+      <Modified>2015-11-05T15:13:56.598</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.InteropServices.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
-      <Modified>2015-11-02T16:05:15.469</Modified>
+      <Modified>2015-11-05T15:13:57.082</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
-      <Modified>2015-11-02T16:05:03.304</Modified>
+      <Modified>2015-11-05T15:13:33.613</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
-      <Modified>2015-11-02T16:05:14.595</Modified>
+      <Modified>2015-11-05T15:13:57.051</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Serialization.dll">
       <PackagePath>System.Runtime.Serialization.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.475</Modified>
+      <Modified>2015-11-05T15:13:33.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
-      <Modified>2015-11-02T16:05:03.779</Modified>
+      <Modified>2015-11-05T15:13:33.566</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.452</Modified>
+      <Modified>2015-11-05T15:13:33.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.633</Modified>
+      <Modified>2015-11-05T15:13:33.269</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll">
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.745</Modified>
+      <Modified>2015-11-05T15:13:33.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.634</Modified>
+      <Modified>2015-11-05T15:13:33.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Security.Claims.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
-      <Modified>2015-11-02T16:05:14.851</Modified>
+      <Modified>2015-11-05T15:13:58.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Security.Principal.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
-      <Modified>2015-11-02T16:05:15.481</Modified>
+      <Modified>2015-11-05T15:13:57.098</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.dll">
       <PackagePath>System.ServiceModel.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.496</Modified>
+      <Modified>2015-11-05T15:13:33.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll">
       <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
-      <Modified>2015-11-02T16:05:05.898</Modified>
+      <Modified>2015-11-05T15:13:34.769</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.Http.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.Http.dll">
       <PackagePath>System.ServiceModel.Http.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.614</Modified>
+      <Modified>2015-11-05T15:13:34.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll">
       <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.421</Modified>
+      <Modified>2015-11-05T15:13:33.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll">
       <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.733</Modified>
+      <Modified>2015-11-05T15:13:35.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.Security.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.Security.dll">
       <PackagePath>System.ServiceModel.Security.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.444</Modified>
+      <Modified>2015-11-05T15:13:35.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.Web.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.ServiceModel.Web.dll">
       <PackagePath>System.ServiceModel.Web.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.522</Modified>
+      <Modified>2015-11-05T15:13:33.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll">
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.645</Modified>
+      <Modified>2015-11-05T15:13:34.832</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Text.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Text.Encoding.dll">
       <PackagePath>System.Text.Encoding.dll</PackagePath>
-      <Modified>2015-11-02T16:05:15.437</Modified>
+      <Modified>2015-11-05T15:13:58.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll">
       <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
-      <Modified>2015-11-02T16:05:16.657</Modified>
+      <Modified>2015-11-05T15:13:57.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Text.RegularExpressions.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
-      <Modified>2015-11-02T16:05:17.013</Modified>
+      <Modified>2015-11-05T15:13:59.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
-      <Modified>2015-11-02T16:05:16.737</Modified>
+      <Modified>2015-11-05T15:14:00.051</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.Overlapped.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
-      <Modified>2015-11-02T16:05:01.730</Modified>
+      <Modified>2015-11-05T15:13:30.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.Tasks.Dataflow.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
-      <Modified>2015-11-02T16:05:16.782</Modified>
+      <Modified>2015-11-05T15:13:59.582</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.Tasks.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.Tasks.dll">
       <PackagePath>System.Threading.Tasks.dll</PackagePath>
-      <Modified>2015-11-02T16:05:16.783</Modified>
+      <Modified>2015-11-05T15:13:57.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
-      <Modified>2015-11-02T16:05:17.155</Modified>
+      <Modified>2015-11-05T15:13:59.035</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.Timer.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Threading.Timer.dll">
       <PackagePath>System.Threading.Timer.dll</PackagePath>
-      <Modified>2015-11-02T16:05:17.381</Modified>
+      <Modified>2015-11-05T15:13:59.051</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Windows.dll">
       <PackagePath>System.Windows.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.543</Modified>
+      <Modified>2015-11-05T15:13:33.550</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.dll">
       <PackagePath>System.Xml.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.556</Modified>
+      <Modified>2015-11-05T15:13:33.550</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.Linq.dll">
       <PackagePath>System.Xml.Linq.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.573</Modified>
+      <Modified>2015-11-05T15:13:33.550</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
-      <Modified>2015-11-02T16:05:17.432</Modified>
+      <Modified>2015-11-05T15:14:03.035</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.Serialization.dll">
       <PackagePath>System.Xml.Serialization.dll</PackagePath>
-      <Modified>2015-11-02T16:05:02.589</Modified>
+      <Modified>2015-11-05T15:13:33.550</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.XDocument.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.XDocument.dll">
       <PackagePath>System.Xml.XDocument.dll</PackagePath>
-      <Modified>2015-11-02T16:05:17.368</Modified>
+      <Modified>2015-11-05T15:13:59.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.XmlDocument.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.XmlDocument.dll">
       <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
-      <Modified>2015-11-02T16:05:01.617</Modified>
+      <Modified>2015-11-05T15:13:30.378</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
-      <Modified>2015-11-02T16:05:06.632</Modified>
+      <Modified>2015-11-05T15:13:36.582</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\RENATO\Documents\Visual Studio 2015\Projects\Mi Menu Ideal\Mi Menu Ideal\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2015-11-02T06:02:41.501</Modified>
+      <Modified>2015-11-05T03:29:25.680</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

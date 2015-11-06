@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Parse;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -26,6 +28,8 @@ namespace Mi_Menu_Ideal
         Frame rootFrame;
         public KitchenPage()
         {
+            listarComida();
+
             this.InitializeComponent();
             rootFrame = Window.Current.Content as Frame;
 
@@ -36,6 +40,25 @@ namespace Mi_Menu_Ideal
 
             //podemos ver los metodos
             SystemNavigationManager.GetForCurrentView().BackRequested += KitchenPage_BackRequested;
+        }
+
+        private async void listarComida()
+        {
+            ParseQuery<ParseObject> query = ParseObject.GetQuery("Comida");
+            IEnumerable<ParseObject> results = await query.FindAsync();
+
+            ParseObject listObject;
+
+            int sizeResult = results.Count();
+            string mau = "";
+            for (int i = 0; i < sizeResult; i++)
+            {
+                listObject = results.ElementAt<ParseObject>(i);
+
+                mau += listObject.Get<string>("Nombre") + "\n" + listObject.Get<string>("Categoria")+ "\n";
+                    
+            }
+            listaComidas.Text = mau;
         }
 
         private void KitchenPage_BackRequested(object sender, BackRequestedEventArgs e)

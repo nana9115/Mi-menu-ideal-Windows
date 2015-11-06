@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Parse;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -28,10 +29,21 @@ namespace Mi_Menu_Ideal
 
         }
 
-        private void ingresar(object sender, RoutedEventArgs e)
+        private async void ingresar(object sender, RoutedEventArgs e)
         {
-            Frame rootFrame = Window.Current.Content as Frame;
-            rootFrame.Navigate(typeof(GaleriaPage));
+            try
+            {
+                await ParseUser.LogInAsync(usern.Text, passw.Password);
+                Frame rootFrame = Window.Current.Content as Frame;
+                rootFrame.Navigate(typeof(GaleriaPage));
+            }
+            catch (Exception ev)
+            {
+                Frame rootFrame = Window.Current.Content as Frame;
+                rootFrame.Navigate(typeof(LoginPage));
+            }
+
+            
         }
 
         private void regaqui(object sender, RoutedEventArgs e)

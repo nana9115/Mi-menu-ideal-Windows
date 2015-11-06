@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Parse;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -33,6 +34,9 @@ namespace Mi_Menu_Ideal
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            ParseClient.Initialize("oWuXpc5ahPda0W9eBntpFNW3Grk3wLwVgSJZzbyQ", "92JhJO9uuxxqxYTdzKIa1SQwVa9x6EmCgTb0LYev");
+
         }
 
         /// <summary>
