@@ -1005,3 +1005,6 @@ C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-
 C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\obj\x86\Debug\Core\Parse.WinRT.dll
 C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\obj\x86\Debug\Core\Mi Menu Ideal.xr.xml
 C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\obj\x86\Debug\Core\resources.pri
+C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Assets\imagenes\fondo2.png
+C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\obj\x86\Debug\Mi Menu Ideal.csprojResolveAssemblyReference.cache
+C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\obj\x86\Debug\Core\Assets\imagenes\fondo2.png

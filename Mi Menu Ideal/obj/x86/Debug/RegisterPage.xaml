@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Mi_Menu_Ideal.Login2Page"
+    x:Class="Mi_Menu_Ideal.RegisterPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Mi_Menu_Ideal"
@@ -16,20 +16,41 @@
         </Rectangle>
         
         <StackPanel Padding="50">
-            <TextBlock Text="Iniciar Sesión Administrador"
+            
+            <TextBlock Text="Registro de Usuario" 
                        FontWeight="SemiBold"
                        HorizontalAlignment="Center"
                        Style="{StaticResource HeaderTextBlockStyle}"
                        Margin="-50,50,-50,70"
                        Width="300"/>
-            <TextBox PlaceholderText="Usuario"
+            
+            <TextBox x:ConnectionId='1' x:Name="name"
+                     PlaceholderText="Nombre"
                      Margin="0,0,0,10"/>
-            <TextBox PlaceholderText="Contraseña"
+            
+            <TextBox x:ConnectionId='2' x:Name="lastname"
+                     PlaceholderText="Apellido"
+                     Margin="0,0,0,10"/>
+            
+            <TextBox x:ConnectionId='3' x:Name="ident"
+                     PlaceholderText="Número de Identificación"
+                     Margin="0,0,0,10"/>
+            
+            <TextBox x:ConnectionId='4' x:Name="usern"
+                     PlaceholderText="Usuario"
+                     Margin="0,0,0,10"/>
+            
+            <TextBox x:ConnectionId='5' x:Name="passw"
+                     PlaceholderText="Contraseña"
                      Margin="0,0,0,50"/>
-            <Button Content="Ingresar"
-                    HorizontalAlignment="Center" Click="ingresar2"
+            
+            <Button x:ConnectionId='6' Content="Registrar"
+                    HorizontalAlignment="Center"                  
                     Background="White"
                     FontSize="20"/>
-         </StackPanel>
+            
+        </StackPanel>
+
     </Grid>
 </Page>
+

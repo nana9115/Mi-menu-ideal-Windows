@@ -15,7 +15,7 @@
                        Margin="0,0,0,30"/>
 
 
-            <TextBlock x:Name="listaComidas" 
+            <TextBlock x:ConnectionId='1' x:Name="listaComidas" 
                        Style="{StaticResource SubtitleTextBlockStyle}" 
                        Foreground="Orange"
                        Margin="10,0,0,15"/>
@@ -23,3 +23,4 @@
         </StackPanel>
     </Grid>
 </Page>
+

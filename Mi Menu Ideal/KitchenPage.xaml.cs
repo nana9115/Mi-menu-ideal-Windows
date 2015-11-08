@@ -55,7 +55,7 @@ namespace Mi_Menu_Ideal
             {
                 listObject = results.ElementAt<ParseObject>(i);
 
-                mau += listObject.Get<string>("Nombre") + "\n" + listObject.Get<string>("Categoria")+ "\n";
+                mau +="Nuevo producto:"+ "\n" + listObject.Get<string>("Nombre") + "\n\n" + "Pertence a la categoria:"+ "\n" + listObject.Get<string>("Categoria")+ "\n\n";
                     
             }
             listaComidas.Text = mau;

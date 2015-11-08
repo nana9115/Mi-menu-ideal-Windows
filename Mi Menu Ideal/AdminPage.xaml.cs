@@ -104,7 +104,7 @@ namespace Mi_Menu_Ideal
             }
         }
 
-        private async void goToAdd(object sender, RoutedEventArgs e)
+        private void goToAdd(object sender, RoutedEventArgs e)
         {
 
             Frame rootFrame = Window.Current.Content as Frame;

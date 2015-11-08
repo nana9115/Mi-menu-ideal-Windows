@@ -21,6 +21,9 @@
     <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Assets\imagenes\fondo2.png">
+      <PackagePath>Assets\imagenes\fondo2.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JUAN DAVID YP\Desktop\Ale\Apli movil\Windows Proyecto mi menu ideal\Mi-menu-ideal-Windows\Mi Menu Ideal\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>

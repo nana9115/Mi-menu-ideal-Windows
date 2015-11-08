@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -23,14 +24,30 @@ namespace Mi_Menu_Ideal
     /// </summary>
     public sealed partial class LoginPage : Page
     {
+        ApplicationDataContainer localData;
+        const string KEY_USER = "text";
+
         public LoginPage()
         {
             this.InitializeComponent();
+            this.Loaded += LoginPage_Loaded;
 
+            localData = ApplicationData.Current.LocalSettings;
+        }
+
+        private void LoginPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (localData.Values.ContainsKey(KEY_USER))
+            {
+                usern.Text = localData.Values[KEY_USER] as string;
+            }
         }
 
         private async void ingresar(object sender, RoutedEventArgs e)
         {
+            localData.Values[KEY_USER] = usern.Text;
+            usern.Text = usern.Text;
+
             try
             {
                 await ParseUser.LogInAsync(usern.Text, passw.Password);

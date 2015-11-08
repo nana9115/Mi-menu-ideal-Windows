@@ -8,11 +8,18 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-        <StackPanel Padding="10">
+        <Rectangle>
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Assets/imagenes/fondo2.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <StackPanel Padding="50">
             <TextBlock Text="Iniciar Sesión" 
+                       FontWeight="SemiBold"
+                       HorizontalAlignment="Center"
                        Style="{StaticResource HeaderTextBlockStyle}"
-                       Margin="0,0,0,150"/>
+                       Margin="-50,50,-50,70"
+                       Width="300"/>
             
             <TextBox x:Name="usern"
                      PlaceholderText="Usuario"
@@ -24,10 +31,16 @@
             
             <Button Content="Ingresar"
                     HorizontalAlignment="Center"
-                    Margin="0,0,0,10" Click="ingresar"/>
+                    Margin="0,0,0,10" Click="ingresar"
+                    Background="White"
+                    FontSize="20"/>
             
             <HyperlinkButton Content="Registrar aquí"
-                             HorizontalAlignment="Center" Click="regaqui"/>
+                             HorizontalAlignment="Center" 
+                             Click="regaqui"
+                             Foreground="Black"
+                             FontWeight="SemiBold"
+                             FontSize="20"/>
 
         </StackPanel>
     </Grid>
